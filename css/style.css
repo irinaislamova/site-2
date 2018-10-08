@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+}
+section{
+    width: 1000px/*43cm*/;    
+    margin: 0 auto;
+    background: #999;
+    position: relative;
+    display: block;
+    border: none;
+}
+header{
+    width: 100%;  
+    height: 450px;
+    background-color: #ddd;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+   }
+header-menu{
+    display: block;
+    position: absolute;
+    top: calc(1.20cm - 15px);
+    right: calc(3.09cm - 80px);
+    color: #fff;
+    /*width: 10.69cm;*/
+    height: 0.60cm; 
+    font-family: "Times New Roman";
+}
+header-menu div{
+    float: left;
+    padding: 15px;    
+}
+header-menu div a:link{
+    text-decoration: none;
+    color: white;
+}
+header-menu div a:visited{
+    text-decoration: none;
+    color: white;
+}
+header-menu div a:active{
+    text-decoration: none;
+    color: white;
+}
+header-menu div a:hover{
+    text-decoration: underline;
+    color: red;
+}
+header-text{
+    display: block;
+    position: absolute;
+    top: 4.2cm;
+    left: 4.0cm;
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: rgba(50,50,50,0.0);
+    color: #fff;
+    text-align: center;
+}
+header-sign{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    left: calc(500px - 2.7cm);
+    top: 427px;
+    width: 4.62cm;
+    /*height: calc(1cm - 0.0cm);*/
+    background-color: #e74c3c;
+    text-align: center;
+    padding: 7px 0 7px 0;
+    color: #fff;
+    font-size: 20.1px;
+    font-family: Rokkitt;
+    border-width: 5px;
+    border-color: #e74c3c;
+    border-style: outset;
+    z-index: 2;
+    }
+introduction{
+    display: block;
+    width: calc(100% - 240px);
+    /*height: 100%;*/
+    background: #fff;
+    padding: 0 120px 0 120px;
+}
+.headline{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 36px;
+    color: #e74c3c;
+    padding: 5.43cm 0 2.08cm 0;
+}
+.text{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: #95a5a6;
+    line-height: 29px;
+    padding: 0 96px 0 80px;
+}
+div-block{
+    display: block;
+    width: calc(100%);
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 74px;
+    margin: 73px 0 0px 0;
+}
+div-block div{
+    display: block;
+    position: relative;
+    margin: 20px 20px 0 20px;
+    float: left;
+    width: calc(33.33% - 100px);
+    width: 212px;
+}
+div-block div foto{display: block; position:relative;margin-left: 75px;margin-bottom: 31px; width: 63px; height: 66px; background-size: cover;background-repeat: no-repeat;}
+div-block div p{font-size: 15px; font-family: "Times New Roman"; line-height: 29px; color: #95a5a6;}
+.red{font-size: 20px; font-family: "Times New Roman"; color: #e74c3c; text-align: center; padding-bottom: 34px;}
+portfolio{
+    display: block;
+    position: relative;
+    width: calc(100% - 60px);
+    height: 100%;
+    background: #fff;
+    padding: 58px 30px 157px 30px;
+    overflow: hidden;
+}
+portfolio foto{
+    display: block;
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    width: calc(50% - 100px);
+    float: left;
+    margin: 15px 50px 0px 50px;
+}
+portfolio div{
+    display: block;
+    position: absolute;
+    top: 738px;
+    left: 395px;
+    width: 216px;
+    /*height: 50px;*/
+    padding: 10px 0;
+    background: #e74c3c;
+    color: #fff;
+    text-align: center;
+    font-size: 24.1px;
+    font-family: "Times New Roman";
+}
+contact{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+contact-text{
+    font-size: 59.75px;
+    font-family: Times New Roman;
+    color: #333;
+    text-align: right;
+    padding: 61.5px 0 75px 0;
+}
+footer{
+    width: 100%;
+    height: 240px;
+    background: #e74c3c;
+}
+footer foto{
+    border: 5px solid #e74c3c;
+    height: 88px;
+    width: 88px;
+}
+.twitter{
+    display: block;
+    position: absolute;
+    top: 3215px;
+    left: 116px;
+}
+.dribble{
+    display: block;
+    position: absolute;
+    top: 3215px;
+    left: 452px;    
+}
+.facebook{
+    display: block;
+    position: absolute;
+    top: 3215px;
+    left: 788px;
+}
+footer-text{
+    display: block;
+    position: absolute;
+    font-size: 24.24px;
+    color: #fff;
+    font-family: Times New Roman;
+    left: 80px;
+    top: 3380px;
+}
